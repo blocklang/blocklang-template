@@ -7,7 +7,7 @@ import * as css from './styles/Menu.m.css';
 
 export default class Menu extends WidgetBase {
 	protected render() {
-		return w(Toolbar, { heading: 'My Dojo App!', collapseWidth: 600 }, [
+		return w(Toolbar, { heading: 'My Block Lang App!', collapseWidth: 600 }, [
 			w(
 				Link,
 				{

@@ -7,7 +7,7 @@ import * as css from '../../../src/widgets/styles/Profile.m.css';
 
 describe('Profile', () => {
 	it('default renders correctly', () => {
-		const h = harness(() => w(Profile, { username: 'Dojo User' }));
-		h.expect(() => v('h1', { classes: [css.root] }, ['Welcome Dojo User!']));
+		const h = harness(() => w(Profile, { username: 'Block Lang User' }));
+		h.expect(() => v('h1', { classes: [css.root] }, ['Welcome Block Lang User!']));
 	});
 });

@@ -20,7 +20,7 @@ describe('App', () => {
 				v('div', [
 					w(Outlet, { key: 'home', id: 'home', renderer: () => w(Home, {}) }),
 					w(Outlet, { key: 'about', id: 'about', renderer: () => w(About, {}) }),
-					w(Outlet, { key: 'profile', id: 'profile', renderer: () => w(Profile, { username: 'Dojo User' }) })
+					w(Outlet, { key: 'profile', id: 'profile', renderer: () => w(Profile, { username: 'Block Lang User' }) })
 				])
 			])
 		);
@@ -41,6 +41,6 @@ describe('App', () => {
 	it('profile outlet renderer', () => {
 		const h = harness(() => w(App, {}));
 		const renderer = h.trigger('@profile', 'renderer');
-		h.expect(() => w(Profile, { username: 'Dojo User' }), () => renderer);
+		h.expect(() => w(Profile, { username: 'Block Lang User' }), () => renderer);
 	});
 });

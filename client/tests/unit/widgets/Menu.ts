@@ -11,7 +11,7 @@ describe('Menu', () => {
 	it('default renders correctly', () => {
 		const h = harness(() => w(Menu, {}));
 		h.expect(() =>
-			w(Toolbar, { heading: 'My Dojo App!', collapseWidth: 600 }, [
+			w(Toolbar, { heading: 'My Block Lang App!', collapseWidth: 600 }, [
 				w(
 					Link,
 					{

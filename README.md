@@ -4,4 +4,5 @@
 
 ## 安装
 
-在部署的服务器上安装最新版的 [Maven](http://maven.apache.org/download.cgi)，因为需要使用 Maven 管理依赖。
+1. 使用 spring boot 项目自带的 `mvnw` 命令来安装 maven
+2. 执行 `npm install -g @dojo/cli-create-app` 安装 dojo create 和 build 工具

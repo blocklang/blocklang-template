@@ -5,4 +5,11 @@
 ## 安装
 
 1. 使用 spring boot 项目自带的 `mvnw` 命令来安装 maven
-2. 执行 `npm install -g @dojo/cli-create-app` 安装 dojo create 和 build 工具
+2. 因为项目中使用 `cnpm` 安装 dojo 依赖，所以需要先安装 `cnpm` 工具
+
+   ```sh
+   npm install -g cnpm --registry=https://registry.npm.taobao.org
+   ```
+
+3. 执行 `npm install -g @dojo/cli-create-app` 安装 dojo create 和 build 工具
+4. 使用 npm 的淘宝镜像，安装 `cnpm`

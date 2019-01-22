@@ -12,4 +12,3 @@
    ```
 
 3. 执行 `npm install -g @dojo/cli-create-app` 安装 dojo create 和 build 工具
-4. 使用 npm 的淘宝镜像，安装 `cnpm`

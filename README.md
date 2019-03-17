@@ -11,4 +11,5 @@
    npm install -g cnpm --registry=https://registry.npm.taobao.org
    ```
 
-3. 执行 `npm install -g @dojo/cli-create-app` 安装 dojo create 和 build 工具
+3. 或者使用 `yarn` 安装依赖
+4. 执行 `npm install -g @dojo/cli-create-app` 安装 dojo create 和 build 工具

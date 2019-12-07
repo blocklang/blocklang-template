@@ -3,7 +3,6 @@ import theme from '@dojo/framework/core/middleware/theme';
 import Outlet from '@dojo/framework/routing/Outlet';
 import dojo from '@dojo/themes/dojo';
 
-import Home from './widgets/Home';
 import * as css from './App.m.css';
 
 const factory = create({ theme });
@@ -13,6 +12,8 @@ export default factory(function App({ middleware: { theme } }) {
 		theme.set(dojo);
 	}
 	return v('div', { classes: [css.root] }, [
-		v('div', [w(Outlet, { key: 'home', id: 'home', renderer: () => w(Home, {}) })])
+		v('div', [
+
+		])
 	]);
 });

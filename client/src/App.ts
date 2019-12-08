@@ -11,9 +11,5 @@ export default factory(function App({ middleware: { theme } }) {
 	if (!theme.get()) {
 		theme.set(dojo);
 	}
-	return v('div', { classes: [css.root] }, [
-		v('div', [
-
-		])
-	]);
+	return v('div', { classes: [css.root] }, []);
 });

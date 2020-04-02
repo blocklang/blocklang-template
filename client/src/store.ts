@@ -11,6 +11,7 @@ const router = registerRouterInjector(routesConfig, registry);
 
 export default createStoreMiddleware<State>((store: Store) => {
 	// 当切换路由时，清除页面级的数据，这样就可以每次刷新页面时重新请求数据。
+	// TODO: 为页面增加 onLoad 事件和 onUnload 事件，分别用于初始化数据和销毁数据。
 	router.on('nav', ({ outlet, context }: any) => {
 		changeRouteProcess(store)({ outlet, context });
 	});
